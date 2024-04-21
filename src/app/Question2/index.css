@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border: 1px solid red;
+    padding: 10px;
+    width: 100%;
+  }
+  .cell{
+    width: 200px;
+    border: 1px dotted blue;
+    padding: 20px;
+    background-color: transparent;
+  }
+  .cell-activated{
+    width: 200px;
+    border: 1px dotted blue;
+    padding: 20px;
+    background-color: green;
+  }
